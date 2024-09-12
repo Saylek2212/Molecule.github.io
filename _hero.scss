@@ -1,0 +1,80 @@
+.hero {
+    max-width: 1440px;
+    height: 100%;
+    margin-block-end: 128px;
+    background-color: $main-color;
+}
+.hero__inner {
+    
+}
+.hero__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 100px;
+}
+.hero__main-text {
+    flex-basis: 50%;
+    margin-inline-end:clamp(1em, 2vw, 25px);
+}
+.hero__tittle {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: clamp(16px, 3vw, 38px);
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.violet {
+    color:rgb(121, 78, 255);
+}
+.hero__text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: clamp(14px, 3vw, 18px);
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+input {
+    color: rgb(30, 49, 59);
+    font-family: Roboto;
+    font-size: clamp(12px,2vw, 16px);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero__second-text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hero__main-img {
+    flex-basis: 50%;
+    border:1px dashed $white;
+    padding: 30px -10px 0 80px;
+    margin: 0;
+}
+.hero__footer {
+    text-align: center;
+}
+.hero__footer-text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    & img {
+        max-width: 100%;
+        padding-block: 2em;
+    }
+}

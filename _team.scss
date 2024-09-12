@@ -1,0 +1,28 @@
+.team {
+    margin-block-end:$sect_end;
+}
+.team__inner {
+    display: flex;
+    align-items: center;
+    button {
+        width: 141px;
+        height: 42px;
+        border-radius: 6px;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+        background: rgb(121, 78, 255);
+        a {
+            color: rgb(255, 255, 255);
+            font-family: Roboto;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 150%;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}
+.lable-team {
+    border: 2px solid rgb(121, 78, 255);
+    background: rgba(121, 78, 255, 0.8);
+    color: $white;
+}

@@ -1,0 +1,41 @@
+.footer__inner {
+}
+.container {
+}
+.footer__up, .footer__doun {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo_cite {
+}
+.nav__header-links {
+}
+.nav__header-link {
+}
+.active {
+}
+.footer__up-social {
+}
+.section__text {
+}
+.violet {
+}
+.footer__doun-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    li a {
+        text-decoration: none;
+        list-style-type: none;
+        color: rgb(121, 78, 255);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+.vilet {
+}

@@ -1,0 +1,45 @@
+.ready {
+    margin-block-end:$sect_end;
+    background-color: rgb(121, 78, 255);
+    padding: 89px 80px;
+}
+.ready__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ready__tittle {
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 61.6px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section__text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.ready__text {
+    color: $white;
+}
+.ready__btn {
+    margin-block: 0;
+    border-radius: 6px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    color: rgb(30, 49, 59);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    // line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    & input {
+        margin: 0;
+    }
+}

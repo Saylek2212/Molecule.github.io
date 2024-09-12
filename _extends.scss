@@ -1,0 +1,55 @@
+
+%row-fl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+%col-fl {
+    display: flex;
+    flex-direction: column;
+} 
+
+%visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section__text {
+    color: rgb(30, 49, 59);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+
+.section__tittle {
+    font-family: Roboto;
+    font-size: 2rem;
+    line-height: 125%;
+    text-align: left;
+    margin-block-end: 18px;
+}
+.orange {
+    color: $orange;
+}
+
+.section__lable {
+    max-width: 119px;
+    border-radius: 100px;
+    margin-block-end: min(2vw, 29px);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}

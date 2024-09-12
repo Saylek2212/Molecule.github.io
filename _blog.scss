@@ -1,0 +1,71 @@
+.blog {
+    margin-block-end:$sect_end;
+}
+.lable-blog {
+    border: 2px solid rgb(121, 78, 255);
+    border-radius: 100px;
+    background: rgba(121, 78, 255, 0.8);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.blog__btn {
+    border-radius: 6px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(30, 49, 59);
+    margin-block-end: 30px;
+    margin-inline-start: 90%;
+    a {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+.blog__boxes {
+    display: flex;
+    column-gap: 33px;
+}
+.blog__box img {
+    margin-block-end: 43px;
+}
+.blog__box-tittle {
+    color: rgb(30, 49, 59);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.box__block {
+    display: flex;
+    column-gap: 1em;
+}
+.blog__box-txt {
+    color: rgb(30, 49, 59);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-block-end: 14px;
+}
+.box_text {
+    color: rgb(30, 49, 59);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}

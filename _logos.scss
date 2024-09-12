@@ -1,0 +1,54 @@
+.logos {
+    margin-block-end:$sect_end;
+    background-color: $main-color;
+    padding-block: $sect-end;
+}
+.logos__inner {
+    text-align: center;
+}
+.logos__tittle {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.logos__maintext {
+    width: minmax(250px, 15em, 734px);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-block-end: 2em;
+}
+.logos__btn {
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+}
+.violet_btn {
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(121, 78, 255);
+}
+input::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.violet_btn {
+    padding: 9px 15px;
+    color: $white;
+    border: none;
+}
+.white_btn {
+    padding: 9px 15px;
+    color:rgb(30, 49, 59);
+    border: none;
+}

@@ -1,0 +1,40 @@
+.miss {
+    margin-block-end:$sect_end;
+    background-color: rgb(121, 78, 255);
+    padding: 64px 80px;
+}
+.miss__inner {
+    background-color: $white;
+    border-radius: 48px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 80px;
+    padding: min(3em, 5vw, 163px) min(2em, 3vw, 88px);
+}
+.miss__right {
+    flex-basis: 50%;
+}
+.miss__left {
+    flex-basis: 50%;
+}
+.text_miss {
+    color: rgb(30, 49, 59);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+input {
+    margin-block-end: 1em;
+    &::placeholder {
+        color: rgb(30, 49, 59);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
